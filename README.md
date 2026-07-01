@@ -9,7 +9,7 @@ repositories {
 }
 
 dependencies {
-  implementation("io.github.vernearth-dream-dialog-1.0.0")
+  implementation("io.github.vernearth:dream-dialog:1.0.0")
 }
 ```
 
