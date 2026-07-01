@@ -18,8 +18,12 @@ A powerful Kotlin DSL library for creating interactive dialogs in Minecraft Pape
 Add the dependency to your `build.gradle.kts`:
 
 ```kotlin
+repositories {
+  mavenCentral()
+}
+
 dependencies {
-    implementation("io.github.vernearth:dream-dialog:1.0.0")
+  implementation("io.github.vernearth:dream-dialog:1.0.0")
 }
 ```
 
